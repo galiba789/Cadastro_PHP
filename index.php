@@ -9,16 +9,16 @@
     
     <main>
         <form action="login_control.php" method="post">
-            <label for="usu">Email:</label>
-            <input type="email" name="email" id="email"require>
-            <label for="sen">Senha</label>
-            <input type="password" name="sen" id="sen"require>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <label for="sen">Senha:</label>
+            <input type="password" name="sen" id="sen" required>
             <input type="submit" value="Enviar">
         </form>
-       
-        <a href="cadastro.php">
-            <br><input type="submit" value="Cadastrar-se">
-        </a>    
+
+        
+        <br>
+        <a href="cadastro.php">Cadastrar-se</a>   
     </main>
 </body>
 </html>

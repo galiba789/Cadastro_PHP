@@ -31,6 +31,7 @@ $cadastro->setNome($_POST['name']);
 $cadastro->setSenha($_POST['password']);
 $cadastro->setEmail($_POST['email']);
 
+
 if (empty($cadastro->getNome()) || empty($cadastro->getEmail()) || empty($cadastro->getSenha())) {
     header("Location: cadastro.php");
     exit;
