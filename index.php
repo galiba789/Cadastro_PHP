@@ -6,13 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-        include_once ('conectar.php');
-    ?>
+    
     <main>
-        <form action=".php" method="post">
-            <label for="usu">Usuario:</label>
-            <input type="text" name="usu" id="usu"require>
+        <form action="login_control.php" method="post">
+            <label for="usu">Email:</label>
+            <input type="email" name="email" id="email"require>
             <label for="sen">Senha</label>
             <input type="password" name="sen" id="sen"require>
             <input type="submit" value="Enviar">
